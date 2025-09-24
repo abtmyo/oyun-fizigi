@@ -18,8 +18,8 @@ https://www.instagram.com/reel/DO-gDa6DcMl/?igsh=MXBvemFvYWZ5NHRxMQ==
 
 ## P5.js 
 
-https://p5js.org/tutorials/ 
-https://editor.p5js.org/
+* https://p5js.org/tutorials/ 
+* https://editor.p5js.org/
 
 ## Processing
 
