@@ -1,5 +1,12 @@
 # Oyun Fizigi
 
+Ofis Saatleri:
+
+Carsamba 12:00 - 14:00
+Cuma 12:30 - 13:30
+
+
+
 ## Odev 0
 
 https://classroom.github.com/a/i2qkthZN
