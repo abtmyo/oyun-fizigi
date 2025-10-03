@@ -2,8 +2,8 @@
 
 Ofis Saatleri:
 
-Carsamba 12:00 - 14:00
-Cuma 12:30 - 13:30
+* Carsamba 12:00 - 14:00
+* Cuma 12:30 - 13:30
 
 
 
