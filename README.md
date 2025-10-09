@@ -2,9 +2,9 @@
 
 Ofis Saatleri:
 
-* Carsamba 12:00 - 14:00
-* Cuma 12:30 - 13:30
-
+* Persembe 14:00 - 17:00
+* Email: guvencu at anadolu edu tr
+* Oda: 115
 
 
 ## Odev 0
