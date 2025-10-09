@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>OGP101 Oyun Fiziği Dersi - Quiz 1</title>
+<style>
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 2cm;
+    line-height: 1.4;
+    color: #111;
+  }
+  h1, h2 { text-align: center; }
+  h1 { margin-bottom: 0; }
+  .info { margin-top: 0.5em; text-align: center; }
+  .meta { text-align: right; font-size: 0.9em; }
+  .question { margin-top: 1.5em; }
+  .question p { margin-bottom: 0.3em; }
+
+  .grid-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2cm;
+    margin: 1em auto;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 35px);
+    grid-template-rows: repeat(8, 35px);
+    border: 2px solid #000;
+    width: max-content;
+  }
+  .grid div {
+    border: 1px solid #aaa;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .answer-list { flex: 1; font-size: 0.95em; }
+  .answer-list ul { list-style-type: upper-alpha; padding-left: 1.2em; margin: 0; }
+
+  .shape-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2cm;
+    margin: 1em 0;
+  }
+  .shape-container svg {
+    border: 1px solid #aaa;
+    border-radius: 6px;
+  }
+
+  .page-break {
+    page-break-before: always;
+    margin-top: 2cm;
+  }
+
+  .with-space { margin-bottom: 4cm; }
+
+  .two-cols {
+    display: flex;
+    justify-content: space-between;
+  }
+  .two-cols ul {
+    width: 48%;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .two-cols li { margin-bottom: 0.4em; }
+
+  /* Footer container */
+  .footer-row {
+    position: fixed;
+    bottom: 1.2cm;
+    left: 2cm;
+    right: 2cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    font-size: 0.9em;
+    visibility: hidden; /* default: gizli */
+  }
+  .footer-row .hint {
+    font-family: "Courier New", monospace;
+    color: #555;
+    font-style: normal;
+  }
+
+  /* Sadece 2. sayfada göster */
+  @page:first {
+    @bottom-right { content: none; }
+  }
+  @media print {
+    body > .footer-row { visibility: hidden; }
+    .page-break + .footer-row { visibility: visible; }
+  }
+</style>
+</head>
+<body>
+
+<div class="meta">08.10.2025</div>
+<h1>Anadolu Üniversitesi</h1>
+<div class="info"><strong>OGP101 Oyun Fiziği Dersi — Quiz 1</strong></div>
+
+<p><strong>Öğrenci No: ____________________ </strong>
+<strong>İsim:____________________ </strong>
+<strong>İmza:____________________ </strong></p>
+
+<!-- 1. Soru -->
+<div class="question">
+  <p><strong>1) Aşağıdaki kelimelerin Türkçe karşılıklarını yazınız. (15p)</strong></p>
+  <div style="columns:3;">
+    <ul>
+      <li>background</li><li>line</li><li>fill</li><li>variable</li><li>circle</li>
+      <li>assignment</li><li>share</li><li>discussion</li><li>random</li><li>width</li>
+      <li>if</li><li>add</li><li>divide</li><li>height</li><li>draw</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Soru -->
+<div class="question">
+  <p><strong>2) Her bir komutun hangi renkte boyama yapacağını yazınız. (10p)</strong></p>
+  <div class="two-cols">
+    <ul>
+      <li>background(0);</li>
+      <li>background(255);</li>
+      <li>fill(50);</li>
+      <li>fill(255,0,0);</li>
+      <li>fill(0,0,255);</li>
+    </ul>
+    <ul>
+      <li>background("brown");</li>
+      <li>fill(0,150,0);</li>
+      <li>fill(50,50,50);</li>
+      <li>background(255,255,255);</li>
+      <li>stroke(200,10,10);</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Soru -->
+<div class="question">
+  <p><strong>3) Solda çizilen canvas’ta iki köşe noktasının koordinatları (0,0) ve (6,7) verilmiştir. Her bir ufak kareyi bir piksel olarak kabul ediniz. Buna göre işaretli noktaların koordinatlarını yazınız. (10p)</strong></p>
+  <div class="grid-wrapper">
+    <div class="grid">
+      <div>(0,0)</div><div></div><div></div><div></div><div></div><div></div><div>D</div>
+      <div></div><div>A</div><div></div><div></div><div></div><div></div><div></div>
+      <div></div><div>B</div><div></div><div>F</div><div></div><div></div><div></div>
+      <div></div><div></div><div>H</div><div>I</div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      <div>E</div><div></div><div></div><div></div><div>C</div><div></div><div></div>
+      <div></div><div></div><div></div><div></div><div></div><div>J</div><div></div>
+      <div></div><div></div><div>G</div><div></div><div></div><div></div><div>(6,7)</div>
+    </div>
+    <div class="answer-list">
+      <ul>
+        <li>____________</li><li>____________</li><li>____________</li><li>____________</li>
+        <li>____________</li><li>____________</li><li>____________</li><li>____________</li>
+        <li>____________</li><li>____________</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Sayfa 2 -->
+<div class="page-break"></div>
+
+<!-- 4. Soru -->
+<div class="question with-space">
+  <p><strong>4) Köşelerinin koordinatları (200,380), (330,250), (200,250) ve (330,380) olan kareyi canvas’ta çizen kodu yazınız.</strong>
+  Arka plan rengi <em>beyaz</em> olacak, karenin iç kısmının rengi <em>mavi</em> olacaktır. <strong>(20p)</strong></p>
+</div>
+
+<!-- 5. Soru -->
+<div class="question with-space">
+  <p><strong>5) Yukarıdaki kare biçimindeki çizdiğimiz karenin kenarlarına içte teğet bir çember çizecek kodu yazınız.</strong>
+  Çemberin içinin rengi <em>kırmızı</em> olmalıdır. <strong>(20p)</strong></p>
+  <div class="shape-container">
+    <svg width="160" height="160">
+      <rect x="30" y="30" width="100" height="100" fill="blue" stroke="black" stroke-width="2"/>
+      <circle cx="80" cy="80" r="50" fill="red" stroke="red" stroke-width="2"/>
+    </svg>
+    <div style="flex:1; border:1px dashed transparent;"></div>
+  </div>
+  <div style="font-size:0.9em; font-style:italic; margin-left:0;">Örnek çıktı</div>
+</div>
+
+<!-- 6. Soru -->
+<div class="question with-space">
+  <p><strong>6) Canvas’ta her yeni frame’de rastgele yeni bir karenin çizileceği kodu yazınız.</strong>
+  Çizilecek karelerin alanı 100 birim² (piksel²) ile 400 birim² (piksel²) arasında olmalıdır. Çizilecek karelerden alanı küçük olanların içi <em>kırmızı</em>, büyük olanların içi <em>mavi</em>ye boyanmalıdır. Alanı 200 birim² (piksel²) olan kare sınır kabul edilir. Alanı 200 birim²’den küçük kareler “küçük kare”, 200 birim²’den büyük kareler “büyük kare” olarak kabul edilmelidir. <strong>(25p)</strong></p>
+</div>
+
+<!-- Footer sadece 2. sayfada görünür -->
+<div class="page-break"></div>
+<div class="footer-row">
+  <div class="hint">💡 İpucu: rect(x, y, width, height);</div>
+  <div>Başarılar!</div>
+</div>
+
+</body>
+</html>
