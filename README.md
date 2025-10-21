@@ -34,4 +34,7 @@ https://www.instagram.com/reel/DO-gDa6DcMl/?igsh=MXBvemFvYWZ5NHRxMQ==
 
 https://youtubetotranscript.com/
 
+Nested Loop (3  nested for)
+https://editor.p5js.org/gusanmaz/sketches/vNOM8nsq0
+
 
