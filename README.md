@@ -39,3 +39,7 @@ https://editor.p5js.org/gusanmaz/sketches/vNOM8nsq0
 
 https://gusanmaz.github.io/for2.html
 
+# P5.js Notlari
+
+* https://gusanmaz.github.io/p5-course.html
+
