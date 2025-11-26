@@ -82,8 +82,8 @@ Bu ödevi tamamlamak için **p5.js Web Editor** kullanabilirsiniz.
 
 ## ⏰ Son Teslim Tarihi
 **Tarih:** 1 Aralık 2025, Saat: 23:59
-*Geç kalan ödevler değerlendirmeye alınmayacaktır.*
-*Bu ödev bireysel yapılacak ve ödev kodu yapay zekaya yazdırılmayacaktır.*
+* *Geç kalan ödevler değerlendirmeye alınmayacaktır.*
+* *Bu ödev bireysel yapılacak ve ödev kodu yapay zekaya yazdırılmayacaktır.*
 
 
 Başarılar!
