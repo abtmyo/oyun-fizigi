@@ -3,10 +3,10 @@
 ## 🎯 Amaç
 Bu ödevin amacı, **The Nature of Code - Bölüm 0** kapsamında öğrendiğimiz "Rastgelelik" ve "Normal Dağılım" (Gaussian Distribution) kavramlarını pekiştirmektir. `randomGaussian()` fonksiyonunu kullanarak sanal bir popülasyonun IQ skorlarını simüle edecek ve verilerin "Binning" (Gruplama) yöntemiyle nasıl bir Çan Eğrisi (Bell Curve) oluşturduğunu görselleştireceksiniz.
 
-### Örnek Program
+### 🔭 Örnek Program
 
-Bu ödevde istenen türde programın üretebileceği çıktı videoya alınmıştır. İlgili videoyu https://youtu.be/VURMTyL7fnU bağlantısından izleyebilirsiniz.
-Nature of Code kitabında uniform (düzgün) dağılım için benzer mantıkla yazılmış olan kodu https://natureofcode.com/random/#example-02-a-random-number-distribution bağlantısından inceleyebilirsiniz.
+* Bu ödevde istenen türde programın üretebileceği çıktı videoya alınmıştır. İlgili videoyu https://youtu.be/VURMTyL7fnU bağlantısından izleyebilirsiniz.
+* Nature of Code kitabında uniform (düzgün) dağılım için benzer mantıkla yazılmış olan kodu https://natureofcode.com/random/#example-02-a-random-number-distribution bağlantısından inceleyebilirsiniz.
 
 ## 📘 Konsept: "Bin" (Grup) Nedir?
 IQ skorları teorik olarak ondalıklı (floating point) sayılardır (örn: 100.45, 98.99). Ancak biz bunları bir çubuk grafiğe dökmek istiyoruz. Bunun için sayıları tamsayı gruplarına (bins) ayırmalıyız.
