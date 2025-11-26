@@ -70,13 +70,13 @@ Bu ödevi tamamlamak için **p5.js Web Editor** kullanabilirsiniz.
     * **Davet Linki:** https://classroom.github.com/a/euMjHST8
 2.  p5.js Web Editor üzerinde kodunuzu yazın.
 3.  Projenizi kaydedin (Save).
-4.  Bu `README.md` dosyasını düzenleyin ve projenizin linkini yapıştırın.
+4.  Davet linki ile oluşturulan repodaki `README.md` dosyasını düzenleyin ve projenizin linkini yapıştırın.
 5.  Değişiklikleri `Commit` edin.
 
 ## Örnek README İçeriği
 
 **Proje Linkim:**
-[Lütfen p5.js Web Editor linkinizi buraya yapıştırın]
+[p5.js Web Editor linkinizi buraya yapıştırın]
 
 ---
 
