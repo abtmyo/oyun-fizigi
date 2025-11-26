@@ -1,4 +1,4 @@
-# Ödev 1: Gaussian Dağılımı ve IQ Görselleştirmesi
+# 📊 Ödev 1: Gaussian Dağılımı ve IQ Görselleştirmesi
 
 ## 🎯 Amaç
 Bu ödevin amacı, **The Nature of Code - Bölüm 0** kapsamında öğrendiğimiz "Rastgelelik" ve "Normal Dağılım" (Gaussian Distribution) kavramlarını pekiştirmektir. `randomGaussian()` fonksiyonunu kullanarak sanal bir popülasyonun IQ skorlarını simüle edecek ve verilerin "Binning" (Gruplama) yöntemiyle nasıl bir Çan Eğrisi (Bell Curve) oluşturduğunu görselleştireceksiniz.
@@ -73,7 +73,7 @@ Bu ödevi tamamlamak için **p5.js Web Editor** kullanabilirsiniz.
 4.  Davet linki ile oluşturulan repodaki `README.md` dosyasını düzenleyin ve projenizin linkini yapıştırın.
 5.  Değişiklikleri `Commit` edin.
 
-## Örnek README İçeriği
+## 📜 Örnek README İçeriği
 
 **Proje Linkim:**
 [p5.js Web Editor linkinizi buraya yapıştırın]
