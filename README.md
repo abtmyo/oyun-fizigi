@@ -51,7 +51,13 @@ https://www.jeffreythompson.org/collision-detection/
 
 # Oyun Oynayarak Kodlama
 
-* Replicube: https://store.steampowered.com/app/3401490/Replicube/ 
+* Replicube: https://store.steampowered.com/app/3401490/Replicube/
+
+# Nature of Code 
+
+* https://natureofcode.com/
+* https://github.com/nature-of-code/noc-book-2
+* https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM
 
 # Istatistik Yardimci Kaynaklar
 
@@ -60,7 +66,7 @@ https://www.jeffreythompson.org/collision-detection/
 
 # Conways's Game of Life Atolyesi
 
-https://gusanmaz.github.io/conway.html
+* https://gusanmaz.github.io/conway.html
 
 # Cellular Automaton
 
@@ -68,4 +74,9 @@ https://gusanmaz.github.io/conway.html
 * https://www.youtube.com/watch?v=lsWulRIWzdo
 * https://youtu.be/qGxqKUbrXpk
 * https://natureofcode.com/cellular-automata/
+
+# JS Oyun Fizigi Kutuphaneleri
+
+* Matter.js - https://brm.io/matter-js/
+* p5play.js - https://p5play.org/
 
