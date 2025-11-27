@@ -6,10 +6,18 @@
 * Email: guvencu at anadolu edu tr
 * Oda: 115
 
+  
+## Odevler
 
-## Odev 0
+Github Classroom Odev Gonderimi (Basitlestirilmis Anlatim): https://gusanmaz.github.io/github-classroom-gonderim.pdf
+
+### Odev 0
 
 https://classroom.github.com/a/i2qkthZN
+
+### Odev 1
+
+https://github.com/abtmyo/oyun-fizigi/blob/main/odev1.md
 
 ## Kitap
 
