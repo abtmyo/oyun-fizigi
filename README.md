@@ -41,5 +41,31 @@ https://gusanmaz.github.io/for2.html
 
 # P5.js Notlari
 
-* https://gusanmaz.github.io/p5-course.html
+* Donguler 1: https://gusanmaz.github.io/for.html
+* Donguler 2: https://gusanmaz.github.io/for2.html
+* Kapsamli p5.js Notlari: https://gusanmaz.github.io/p5-course.html
+
+# Collison Detection
+
+https://www.jeffreythompson.org/collision-detection/
+
+# Oyun Oynayarak Kodlama
+
+* Replicube: https://store.steampowered.com/app/3401490/Replicube/ 
+
+# Istatistik Yardimci Kaynaklar
+
+* https://tr.khanacademy.org/math/statistics-probability/modeling-distributions-of-data/normal-distributions-library/a/normal-distributions-review
+* https://tr.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-population/a/calculating-standard-deviation-step-by-step
+
+# Conways's Game of Life Atolyesi
+
+https://gusanmaz.github.io/conway.html
+
+# Cellular Automaton
+
+* https://youtu.be/Ggxt06qSAe4
+* https://www.youtube.com/watch?v=lsWulRIWzdo
+* https://youtu.be/qGxqKUbrXpk
+* https://natureofcode.com/cellular-automata/
 
