@@ -92,3 +92,6 @@ https://www.jeffreythompson.org/collision-detection/
 ## P5.play 
 * https://gusanmaz.github.io/p5play-tut/index.html
 
+# NATURE OF CODE TURKCE
+* https://gusanmaz.github.io/noc/
+
