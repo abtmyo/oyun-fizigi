@@ -228,4 +228,4 @@ function draw() {
     text('WASD: Hareket | SPACE: Dur', 15, 25);
     text('Hız: ' + ball.speed.toFixed(2), 15, 45);
 }
-
+```
