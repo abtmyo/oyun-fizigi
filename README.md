@@ -99,3 +99,85 @@ https://www.jeffreythompson.org/collision-detection/
 
 * https://gusanmaz.github.io/numbers/
 
+# 31 Aralik 2025
+```js
+function setup() {
+    new Canvas(400, 350);
+    world.gravity.y = 10;
+
+    // Zemin
+    let floor = new Sprite(200, 330, 400, 20, 'static');
+    floor.color = '#2d3436';
+
+    // Farklı sekme değerleri
+    let balls = [
+        { x: 70,  bounce: 0,   label: '0' },
+        { x: 140, bounce: 0.3, label: '0.3' },
+        { x: 210, bounce: 0.6, label: '0.6' },
+        { x: 280, bounce: 0.9, label: '0.9' },
+        { x: 350, bounce: 1,   label: '1' }
+    ];
+
+    let colors = ['#ff5f57', '#febc2e', '#00ff88', '#00d4ff', '#c44dff'];
+
+    for (let i = 0; i < balls.length; i++) {
+        let b = balls[i];
+
+        let ball = new Sprite(b.x, 50, 35);
+        ball.bounciness = b.bounce;
+        ball.color = colors[i];
+        ball.text = b.label;
+        ball.textSize = 12;
+    }
+}
+
+function draw() {
+    background('#1a1a2e');
+
+    fill(255);
+    textSize(14);
+    textAlign(CENTER);
+    text('Bounciness Değerleri', 200, 25);
+}
+
+function setup() {
+    new Canvas(400, 350);
+    world.gravity.y = 10;
+
+    // Zemin
+    let floor = new Sprite(200, 330, 400, 20, 'static');
+    floor.color = '#2d3436';
+
+    // Farklı sekme değerleri
+    let balls = [
+        { x: 70,  bounce: 0,   label: '0' },
+        { x: 140, bounce: 0.3, label: '0.3' },
+        { x: 210, bounce: 0.6, label: '0.6' },
+        { x: 280, bounce: 0.9, label: '0.9' },
+        { x: 350, bounce: 1,   label: '1' }
+    ];
+
+    let colors = ['#ff5f57', '#febc2e', '#00ff88', '#00d4ff', '#c44dff'];
+
+    for (let i = 0; i < balls.length; i++) {
+        let b = balls[i];
+
+        let ball = new Sprite(b.x, 50, 35);
+        ball.bounciness = b.bounce;
+        ball.color = colors[i];
+        ball.text = b.label;
+        ball.textSize = 12;
+    }
+}
+
+function draw() {
+    background('#1a1a2e');
+
+    fill(255);
+    textSize(14);
+    textAlign(CENTER);
+    text('Bounciness Değerleri', 200, 25);
+}
+```
+
+
