@@ -178,6 +178,54 @@ function draw() {
     textAlign(CENTER);
     text('Bounciness Değerleri', 200, 25);
 }
-```
 
+
+```js
+
+let ball;
+
+function setup() {
+    new Canvas(400, 300);
+    world.gravity.y = 0;
+
+    ball = new Sprite(200, 150, 40);
+    ball.color = '#00d4ff';
+    ball.drag = 0.5;
+}
+
+function draw() {
+    background('#1a1a2e');
+
+    // WASD ile kuvvet uygula
+    if (kb.pressing('w')){
+      ball.applyForce(0, -0.5);
+    }
+    if (kb.pressing('s')) ball.applyForce(0, 0.5);
+    if (kb.pressing('a')) ball.applyForce(-0.5, 0);
+    if (kb.pressing('d')) ball.applyForce(0.5, 0);
+
+    // Space ile durdur
+    if (kb.pressing('space')) {
+        ball.vel.x = 0;
+        ball.vel.y = 0;
+    }
+
+    // Ekrandan çıkmasın
+    ball.x = constrain(ball.x, 20, 380);
+    ball.y = constrain(ball.y, 20, 280);
+
+    // Hız vektörü çiz
+    stroke('#ff6b9d');
+    strokeWeight(3);
+    line(ball.x, ball.y, 
+         ball.x + ball.vel.x * 200, 
+         ball.y + ball.vel.y * 200);
+    noStroke();
+
+    // Bilgi
+    fill(255);
+    textSize(12);
+    text('WASD: Hareket | SPACE: Dur', 15, 25);
+    text('Hız: ' + ball.speed.toFixed(2), 15, 45);
+}
 
