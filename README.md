@@ -231,3 +231,76 @@ function draw() {
     text('Hız: ' + ball.speed.toFixed(2), 15, 45);
 }
 ```
+
+```js
+let player;
+let coins;
+let score = 0;
+
+// Zamanlayıcı
+let spawnDelay = 60;   // frame (60 frame ≈ 1 saniye)
+let spawnTimer = 0;
+
+function setup() {
+    new Canvas(400, 300);
+    world.gravity.y = 0;
+
+    player = new Sprite(200, 150, 40, 40);
+    player.color = '#00d4ff';
+    player.text = '🤖';
+    player.textSize = 24;
+
+    coins = new Group();
+
+    // İlk coin'ler
+    for (let i = 0; i < 8; i++) {
+        createCoin();
+    }
+}
+
+function draw() {
+    background('#1a1a2e');
+
+    player.moveTowards(mouse, 0.1);
+
+    // Coin toplama
+    player.overlaps(coins, collectCoin);
+
+    // 🔁 Coin spawn timer
+    if (spawnTimer > 0) {
+        spawnTimer--;
+
+        if (spawnTimer === 0) {
+            createCoin();
+        }
+    }
+
+    // UI
+    fill(255);
+    textSize(16);
+    text('Skor: ' + score, 15, 30);
+    text('Coinleri topla!', 15, 280);
+}
+
+// Coin üret
+function createCoin() {
+    let c = new coins.Sprite(
+        random(50, 350),
+        random(50, 250),
+        25
+    );
+    c.color = '#febc2e';
+    c.text = '🪙';
+    c.textSize = 16;
+    c.collider = 'static';
+}
+
+// Coin toplandığında
+function collectCoin(player, coin) {
+    coin.remove();
+    score += 10;
+
+    // Yeni coin için sayaç başlat
+    spawnTimer = spawnDelay;
+}
+```
